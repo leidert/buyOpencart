@@ -1,0 +1,34 @@
+com/sqa/buyOpentcartAutomation/userinterfaces/CartPage.java
+ com.sqa.buyOpentcartAutomation.userinterfaces.CartPage
+com/sqa/buyOpentcartAutomation/userinterfaces/HomeOpencartPage.java
+ com.sqa.buyOpentcartAutomation.userinterfaces.HomeOpencartPage
+com/sqa/buyOpentcartAutomation/tasks/ProductSearch.java
+ com.sqa.buyOpentcartAutomation.tasks.ProductSearch
+com/sqa/buyOpentcartAutomation/tasks/ReviewProduct.java
+ com.sqa.buyOpentcartAutomation.tasks.ReviewProduct
+com/sqa/buyOpentcartAutomation/tasks/AddProduct.java
+ com.sqa.buyOpentcartAutomation.tasks.AddProduct
+com/sqa/buyOpentcartAutomation/userinterfaces/ProductPage.java
+ com.sqa.buyOpentcartAutomation.userinterfaces.ProductPage
+com/sqa/buyOpentcartAutomation/userinterfaces/SearchResultPage.java
+ com.sqa.buyOpentcartAutomation.userinterfaces.SearchResultPage
+com/sqa/buyOpentcartAutomation/models/PurchaseData.java
+ com.sqa.buyOpentcartAutomation.models.PurchaseData
+com/sqa/buyOpentcartAutomation/tasks/GoToCheckOut.java
+ com.sqa.buyOpentcartAutomation.tasks.GoToCheckOut
+com/sqa/buyOpentcartAutomation/questions/VerifyProduct.java
+ com.sqa.buyOpentcartAutomation.questions.VerifyProduct
+com/sqa/buyOpentcartAutomation/userinterfaces/CheckOutPage.java
+ com.sqa.buyOpentcartAutomation.userinterfaces.CheckOutPage
+com/sqa/buyOpentcartAutomation/tasks/CompleteCheckout.java
+ com.sqa.buyOpentcartAutomation.tasks.CompleteCheckout
+com/sqa/buyOpentcartAutomation/tasks/ValidatePurchaseOrder.java
+ com.sqa.buyOpentcartAutomation.tasks.ValidatePurchaseOrder
+com/sqa/buyOpentcartAutomation/userinterfaces/PurchaseHistoryPage.java
+ com.sqa.buyOpentcartAutomation.userinterfaces.PurchaseHistoryPage
+com/sqa/buyOpentcartAutomation/questions/VerifyOrder.java
+ com.sqa.buyOpentcartAutomation.questions.VerifyOrder
+com/sqa/buyOpentcartAutomation/userinterfaces/OrderInformationPage.java
+ com.sqa.buyOpentcartAutomation.userinterfaces.OrderInformationPage
+com/sqa/buyOpentcartAutomation/userinterfaces/SuccessfulOrderPage.java
+ com.sqa.buyOpentcartAutomation.userinterfaces.SuccessfulOrderPage

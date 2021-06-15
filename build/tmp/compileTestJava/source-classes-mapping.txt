@@ -1,0 +1,4 @@
+com/sqa/buyOpentcartAutomation/runners/OpenCartRunner.java
+ com.sqa.buyOpentcartAutomation.runners.OpenCartRunner
+com/sqa/buyOpentcartAutomation/stepdefinitions/BuyOpenCartEstepDefinition.java
+ com.sqa.buyOpentcartAutomation.stepdefinitions.BuyOpenCartEstepDefinition

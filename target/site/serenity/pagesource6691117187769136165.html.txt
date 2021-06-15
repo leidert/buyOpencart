@@ -1,0 +1,350 @@
+<html dir="ltr" lang="en"><!--<![endif]--><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Search - hp</title>
+<base href="http://opencart.abstracta.us:80/">
+<script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+<link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+<script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" type="text/css">
+<link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+<script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+<link href="http://opencart.abstracta.us:80/image/catalog/cart.png" rel="icon">
+</head>
+<body>
+<nav id="top">
+  <div class="container"><div class="pull-left">
+  <form action="http://opencart.abstracta.us:80/index.php?route=common/currency/currency" method="post" enctype="multipart/form-data" id="form-currency">
+    <div class="btn-group">
+      <button class="btn btn-link dropdown-toggle" data-toggle="dropdown">                               <strong>$</strong>        <span class="hidden-xs hidden-sm hidden-md">Currency</span>&nbsp;<i class="fa fa-caret-down"></i></button>
+      <ul class="dropdown-menu">
+                        <li>
+          <button class="currency-select btn btn-link btn-block" type="button" name="EUR">€ Euro</button>
+        </li>
+                                <li>
+          <button class="currency-select btn btn-link btn-block" type="button" name="GBP">£ Pound Sterling</button>
+        </li>
+                                <li>
+          <button class="currency-select btn btn-link btn-block" type="button" name="USD">$ US Dollar</button>
+        </li>
+                      </ul>
+    </div>
+    <input type="hidden" name="code" value="">
+    <input type="hidden" name="redirect" value="http://opencart.abstracta.us:80/index.php?route=product/search&amp;search=hp">
+  </form>
+</div>
+ 
+    
+    <div id="top-links" class="nav pull-right">
+      <ul class="list-inline">
+        <li><a href="http://opencart.abstracta.us:80/index.php?route=information/contact"><i class="fa fa-phone"></i></a> <span class="hidden-xs hidden-sm hidden-md">123456789</span></li>
+        <li class="dropdown"><a href="https://opencart.abstracta.us:443/index.php?route=account/account" title="My Account" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <span class="hidden-xs hidden-sm hidden-md">My Account</span> <span class="caret"></span></a>
+          <ul class="dropdown-menu dropdown-menu-right">
+                        <li><a href="https://opencart.abstracta.us:443/index.php?route=account/register">Register</a></li>
+            <li><a href="https://opencart.abstracta.us:443/index.php?route=account/login">Login</a></li>
+                      </ul>
+        </li>
+        <li><a href="https://opencart.abstracta.us:443/index.php?route=account/wishlist" id="wishlist-total" title="Wish List (0)"><i class="fa fa-heart"></i> <span class="hidden-xs hidden-sm hidden-md">Wish List (0)</span></a></li>
+        <li><a href="http://opencart.abstracta.us:80/index.php?route=checkout/cart" title="Shopping Cart"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Shopping Cart</span></a></li>
+        <li><a href="https://opencart.abstracta.us:443/index.php?route=checkout/checkout" title="Checkout"><i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md">Checkout</span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div id="logo">          <h1><a href="http://opencart.abstracta.us:80/index.php?route=common/home">Your Store</a></h1>
+          </div>
+      </div>
+      <div class="col-sm-5"><div id="search" class="input-group">
+  <input type="text" name="search" value="hp" placeholder="Search" class="form-control input-lg">
+  <span class="input-group-btn">
+    <button type="button" class="btn btn-default btn-lg"><i class="fa fa-search"></i></button>
+  </span>
+</div></div>
+      <div class="col-sm-3"><div id="cart" class="btn-group btn-block">
+  <button type="button" data-toggle="dropdown" data-loading-text="Loading..." class="btn btn-inverse btn-block btn-lg dropdown-toggle"><i class="fa fa-shopping-cart"></i> <span id="cart-total">0 item(s) - $0.00</span></button>
+  <ul class="dropdown-menu pull-right">
+        <li>
+      <p class="text-center">Your shopping cart is empty!</p>
+    </li>
+      </ul>
+</div>
+</div>
+    </div>
+  </div>
+</header>
+<div class="container">
+  <nav id="menu" class="navbar">
+    <div class="navbar-header"><span id="category" class="visible-xs">Categories</span>
+      <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
+    </div>
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav">
+                        <li class="dropdown"><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=20" class="dropdown-toggle" data-toggle="dropdown">Desktops</a>
+          <div class="dropdown-menu" style="">
+            <div class="dropdown-inner">               <ul class="list-unstyled">
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=20_26">PC (0)</a></li>
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=20_27">Mac (1)</a></li>
+                              </ul>
+              </div>
+            <a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=20" class="see-all">Show All Desktops</a> </div>
+        </li>
+                                <li class="dropdown"><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=18" class="dropdown-toggle" data-toggle="dropdown">Laptops &amp; Notebooks</a>
+          <div class="dropdown-menu" style="">
+            <div class="dropdown-inner">               <ul class="list-unstyled">
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=18_46">Macs (0)</a></li>
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=18_45">Windows (0)</a></li>
+                              </ul>
+              </div>
+            <a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=18" class="see-all">Show All Laptops &amp; Notebooks</a> </div>
+        </li>
+                                <li class="dropdown"><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=25" class="dropdown-toggle" data-toggle="dropdown">Components</a>
+          <div class="dropdown-menu" style="">
+            <div class="dropdown-inner">               <ul class="list-unstyled">
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=25_29">Mice and Trackballs (0)</a></li>
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=25_28">Monitors (2)</a></li>
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=25_30">Printers (0)</a></li>
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=25_31">Scanners (0)</a></li>
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=25_32">Web Cameras (0)</a></li>
+                              </ul>
+              </div>
+            <a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=25" class="see-all">Show All Components</a> </div>
+        </li>
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=57">Tablets</a></li>
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=17">Software</a></li>
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=24">Phones &amp; PDAs</a></li>
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=33">Cameras</a></li>
+                                <li class="dropdown"><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=34" class="dropdown-toggle" data-toggle="dropdown">MP3 Players</a>
+          <div class="dropdown-menu" style="margin-left: -208.625px;">
+            <div class="dropdown-inner">               <ul class="list-unstyled">
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=34_43">test 11 (0)</a></li>
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=34_44">test 12 (0)</a></li>
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=34_47">test 15 (0)</a></li>
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=34_48">test 16 (0)</a></li>
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=34_49">test 17 (0)</a></li>
+                              </ul>
+                            <ul class="list-unstyled">
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=34_50">test 18 (0)</a></li>
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=34_51">test 19 (0)</a></li>
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=34_52">test 20 (0)</a></li>
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=34_53">test 21 (0)</a></li>
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=34_54">test 22 (0)</a></li>
+                              </ul>
+                            <ul class="list-unstyled">
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=34_55">test 23 (0)</a></li>
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=34_56">test 24 (0)</a></li>
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=34_38">test 4 (0)</a></li>
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=34_37">test 5 (0)</a></li>
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=34_39">test 6 (0)</a></li>
+                              </ul>
+                            <ul class="list-unstyled">
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=34_40">test 7 (0)</a></li>
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=34_41">test 8 (0)</a></li>
+                                <li><a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=34_42">test 9 (0)</a></li>
+                              </ul>
+              </div>
+            <a href="http://opencart.abstracta.us:80/index.php?route=product/category&amp;path=34" class="see-all">Show All MP3 Players</a> </div>
+        </li>
+                      </ul>
+    </div>
+  </nav>
+</div>
+ 
+
+<div id="product-search" class="container">
+  <ul class="breadcrumb">
+        <li><a href="http://opencart.abstracta.us:80/index.php?route=common/home"><i class="fa fa-home"></i></a></li>
+        <li><a href="http://opencart.abstracta.us:80/index.php?route=product/search&amp;search=hp">Search</a></li>
+      </ul>
+  <div class="row">
+                <div id="content" class="col-sm-12">
+      <h1>Search - hp</h1>
+      <label class="control-label" for="input-search">Search Criteria</label>
+      <div class="row">
+        <div class="col-sm-4">
+          <input type="text" name="search" value="hp" placeholder="Keywords" id="input-search" class="form-control">
+        </div>
+        <div class="col-sm-3">
+          <select name="category_id" class="form-control">
+            <option value="0">Categories</option>
+                                    <option value="20">Desktops</option>
+                                                <option value="26">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PC</option>
+                                                            <option value="27">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mac</option>
+                                                                        <option value="18">Laptops &amp; Notebooks</option>
+                                                <option value="46">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Macs</option>
+                                                            <option value="45">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Windows</option>
+                                                                        <option value="25">Components</option>
+                                                <option value="29">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mice and Trackballs</option>
+                                                            <option value="28">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Monitors</option>
+                                                <option value="35">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 1</option>
+                                                <option value="36">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 2</option>
+                                                            <option value="30">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Printers</option>
+                                                            <option value="31">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scanners</option>
+                                                            <option value="32">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Web Cameras</option>
+                                                                        <option value="57">Tablets</option>
+                                                            <option value="17">Software</option>
+                                                            <option value="24">Phones &amp; PDAs</option>
+                                                            <option value="33">Cameras</option>
+                                                            <option value="34">MP3 Players</option>
+                                                <option value="43">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 11</option>
+                                                            <option value="44">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 12</option>
+                                                            <option value="47">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 15</option>
+                                                            <option value="48">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 16</option>
+                                                            <option value="49">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 17</option>
+                                                            <option value="50">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 18</option>
+                                                            <option value="51">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 19</option>
+                                                            <option value="52">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 20</option>
+                                                <option value="58">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 25</option>
+                                                            <option value="53">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 21</option>
+                                                            <option value="54">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 22</option>
+                                                            <option value="55">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 23</option>
+                                                            <option value="56">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 24</option>
+                                                            <option value="38">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 4</option>
+                                                            <option value="37">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 5</option>
+                                                            <option value="39">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 6</option>
+                                                            <option value="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 7</option>
+                                                            <option value="41">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 8</option>
+                                                            <option value="42">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 9</option>
+                                                          </select>
+        </div>
+        <div class="col-sm-3">
+          <label class="checkbox-inline">
+                        <input type="checkbox" name="sub_category" value="1" disabled="">
+                        Search in subcategories</label>
+        </div>
+      </div>
+      <p>
+        <label class="checkbox-inline">
+                    <input type="checkbox" name="description" value="1" id="description">
+                    Search in product descriptions</label>
+      </p>
+      <input type="button" value="Search" id="button-search" class="btn btn-primary">
+      <h2>Search</h2>
+            <div class="row">
+        <div class="col-md-2 col-sm-6 hidden-xs">
+          <div class="btn-group btn-group-sm">
+            <button type="button" id="list-view" class="btn btn-default" data-toggle="tooltip" title="" data-original-title="List"><i class="fa fa-th-list"></i></button>
+            <button type="button" id="grid-view" class="btn btn-default active" data-toggle="tooltip" title="" data-original-title="Grid"><i class="fa fa-th"></i></button>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="form-group">
+            <a href="http://opencart.abstracta.us:80/index.php?route=product/compare" id="compare-total" class="btn btn-link">Product Compare (0)</a>
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-6">
+          <div class="form-group input-group input-group-sm">
+            <label class="input-group-addon" for="input-sort">Sort By:</label>
+            <select id="input-sort" class="form-control" onchange="location = this.value;">
+                                          <option value="http://opencart.abstracta.us:80/index.php?route=product/search&amp;sort=p.sort_order&amp;order=ASC&amp;search=hp" selected="selected">Default</option>
+                                                        <option value="http://opencart.abstracta.us:80/index.php?route=product/search&amp;sort=pd.name&amp;order=ASC&amp;search=hp">Name (A - Z)</option>
+                                                        <option value="http://opencart.abstracta.us:80/index.php?route=product/search&amp;sort=pd.name&amp;order=DESC&amp;search=hp">Name (Z - A)</option>
+                                                        <option value="http://opencart.abstracta.us:80/index.php?route=product/search&amp;sort=p.price&amp;order=ASC&amp;search=hp">Price (Low &gt; High)</option>
+                                                        <option value="http://opencart.abstracta.us:80/index.php?route=product/search&amp;sort=p.price&amp;order=DESC&amp;search=hp">Price (High &gt; Low)</option>
+                                                        <option value="http://opencart.abstracta.us:80/index.php?route=product/search&amp;sort=rating&amp;order=DESC&amp;search=hp">Rating (Highest)</option>
+                                                        <option value="http://opencart.abstracta.us:80/index.php?route=product/search&amp;sort=rating&amp;order=ASC&amp;search=hp">Rating (Lowest)</option>
+                                                        <option value="http://opencart.abstracta.us:80/index.php?route=product/search&amp;sort=p.model&amp;order=ASC&amp;search=hp">Model (A - Z)</option>
+                                                        <option value="http://opencart.abstracta.us:80/index.php?route=product/search&amp;sort=p.model&amp;order=DESC&amp;search=hp">Model (Z - A)</option>
+                                        </select>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <div class="form-group input-group input-group-sm">
+            <label class="input-group-addon" for="input-limit">Show:</label>
+            <select id="input-limit" class="form-control" onchange="location = this.value;">
+                                          <option value="http://opencart.abstracta.us:80/index.php?route=product/search&amp;search=hp&amp;limit=15" selected="selected">15</option>
+                                                        <option value="http://opencart.abstracta.us:80/index.php?route=product/search&amp;search=hp&amp;limit=25">25</option>
+                                                        <option value="http://opencart.abstracta.us:80/index.php?route=product/search&amp;search=hp&amp;limit=50">50</option>
+                                                        <option value="http://opencart.abstracta.us:80/index.php?route=product/search&amp;search=hp&amp;limit=75">75</option>
+                                                        <option value="http://opencart.abstracta.us:80/index.php?route=product/search&amp;search=hp&amp;limit=100">100</option>
+                                        </select>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+                <div class="product-layout product-grid col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image"><a href="http://opencart.abstracta.us:80/index.php?route=product/product&amp;product_id=47&amp;search=hp"><script data-pagespeed-no-defer="">//<![CDATA[
+(function(){for(var g="function"==typeof Object.defineProperties?Object.defineProperty:function(b,c,a){if(a.get||a.set)throw new TypeError("ES3 does not support getters and setters.");b!=Array.prototype&&b!=Object.prototype&&(b[c]=a.value)},h="undefined"!=typeof window&&window===this?this:"undefined"!=typeof global&&null!=global?global:this,k=["String","prototype","repeat"],l=0;l<k.length-1;l++){var m=k[l];m in h||(h[m]={});h=h[m]}var n=k[k.length-1],p=h[n],q=p?p:function(b){var c;if(null==this)throw new TypeError("The 'this' value for String.prototype.repeat must not be null or undefined");c=this+"";if(0>b||1342177279<b)throw new RangeError("Invalid count value");b|=0;for(var a="";b;)if(b&1&&(a+=c),b>>>=1)c+=c;return a};q!=p&&null!=q&&g(h,n,{configurable:!0,writable:!0,value:q});var t=this;function u(b,c){var a=b.split("."),d=t;a[0]in d||!d.execScript||d.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)a.length||void 0===c?d[e]?d=d[e]:d=d[e]={}:d[e]=c};function v(b){var c=b.length;if(0<c){for(var a=Array(c),d=0;d<c;d++)a[d]=b[d];return a}return[]};function w(b){var c=window;if(c.addEventListener)c.addEventListener("load",b,!1);else if(c.attachEvent)c.attachEvent("onload",b);else{var a=c.onload;c.onload=function(){b.call(this);a&&a.call(this)}}};var x;function y(b,c,a,d,e){this.h=b;this.j=c;this.l=a;this.f=e;this.g={height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth};this.i=d;this.b={};this.a=[];this.c={}}function z(b,c){var a,d,e=c.getAttribute("data-pagespeed-url-hash");if(a=e&&!(e in b.c))if(0>=c.offsetWidth&&0>=c.offsetHeight)a=!1;else{d=c.getBoundingClientRect();var f=document.body;a=d.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);d=d.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);f=a.toString()+","+d;b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.g.height&&d<=b.g.width)}a&&(b.a.push(e),b.c[e]=!0)}y.prototype.checkImageForCriticality=function(b){b.getBoundingClientRect&&z(this,b)};u("pagespeed.CriticalImages.checkImageForCriticality",function(b){x.checkImageForCriticality(b)});u("pagespeed.CriticalImages.checkCriticalImages",function(){A(x)});function A(b){b.b={};for(var c=["IMG","INPUT"],a=[],d=0;d<c.length;++d)a=a.concat(v(document.getElementsByTagName(c[d])));if(a.length&&a[0].getBoundingClientRect){for(d=0;c=a[d];++d)z(b,c);a="oh="+b.l;b.f&&(a+="&n="+b.f);if(c=!!b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),d=1;d<b.a.length;++d){var e=","+encodeURIComponent(b.a[d]);131072>=a.length+e.length&&(a+=e)}b.i&&(e="&rd="+encodeURIComponent(JSON.stringify(B())),131072>=a.length+e.length&&(a+=e),c=!0);C=a;if(c){d=b.h;b=b.j;var f;if(window.XMLHttpRequest)f=new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(r){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(D){}}f&&(f.open("POST",d+(-1==d.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(a))}}}function B(){var b={},c;c=document.getElementsByTagName("IMG");if(!c.length)return{};var a=c[0];if(!("naturalWidth"in a&&"naturalHeight"in a))return{};for(var d=0;a=c[d];++d){var e=a.getAttribute("data-pagespeed-url-hash");e&&(!(e in b)&&0<a.width&&0<a.height&&0<a.naturalWidth&&0<a.naturalHeight||e in b&&a.width>=b[e].o&&a.height>=b[e].m)&&(b[e]={rw:a.width,rh:a.height,ow:a.naturalWidth,oh:a.naturalHeight})}return b}var C="";u("pagespeed.CriticalImages.getBeaconData",function(){return C});u("pagespeed.CriticalImages.Run",function(b,c,a,d,e,f){var r=new y(b,c,a,e,f);x=r;d&&w(function(){window.setTimeout(function(){A(r)},0)})});})();pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','http://opencart.abstracta.us/index.php?route=product/search&search=hp','8Xxa2XQLv9',true,false,'Z6N8sBz_BVk');
+//]]></script><img src="http://opencart.abstracta.us:80/image/cache/catalog/demo/hp_1-228x228.jpg" alt="HP LP3065" title="HP LP3065" class="img-responsive" data-pagespeed-url-hash="1787037657" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="http://opencart.abstracta.us:80/index.php?route=product/product&amp;product_id=47&amp;search=hp">HP LP3065</a></h4>
+                <p>Stop your co-workers in their tracks with the stunning new 30-inch diagonal HP LP3065 Flat Panel Mon..</p>
+                                <p class="price">
+                                    $122.00
+                                                      <span class="price-tax">Ex Tax: $100.00</span>
+                                  </p>
+                                              </div>
+              <div class="button-group">
+                <button type="button" onclick="cart.add('47', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+                <button type="button" data-toggle="tooltip" title="" onclick="wishlist.add('47');" data-original-title="Add to Wish List"><i class="fa fa-heart"></i></button>
+                <button type="button" data-toggle="tooltip" title="" onclick="compare.add('47');" data-original-title="Compare this Product"><i class="fa fa-exchange"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+              </div>
+      <div class="row">
+        <div class="col-sm-6 text-left"></div>
+        <div class="col-sm-6 text-right">Showing 1 to 1 of 1 (1 Pages)</div>
+      </div>
+            </div>
+    </div>
+</div>
+<script type="text/javascript">$('#button-search').bind('click',function(){url='index.php?route=product/search';var search=$('#content input[name=\'search\']').prop('value');if(search){url+='&search='+encodeURIComponent(search);}var category_id=$('#content select[name=\'category_id\']').prop('value');if(category_id>0){url+='&category_id='+encodeURIComponent(category_id);}var sub_category=$('#content input[name=\'sub_category\']:checked').prop('value');if(sub_category){url+='&sub_category=true';}var filter_description=$('#content input[name=\'description\']:checked').prop('value');if(filter_description){url+='&description=true';}location=url;});$('#content input[name=\'search\']').bind('keydown',function(e){if(e.keyCode==13){$('#button-search').trigger('click');}});$('select[name=\'category_id\']').on('change',function(){if(this.value=='0'){$('input[name=\'sub_category\']').prop('disabled',true);}else{$('input[name=\'sub_category\']').prop('disabled',false);}});$('select[name=\'category_id\']').trigger('change');</script>
+<footer>
+  <div class="container">
+    <div class="row">
+            <div class="col-sm-3">
+        <h5>Information</h5>
+        <ul class="list-unstyled">
+                   <li><a href="http://opencart.abstracta.us:80/index.php?route=information/information&amp;information_id=4">About Us</a></li>
+                    <li><a href="http://opencart.abstracta.us:80/index.php?route=information/information&amp;information_id=6">Delivery Information</a></li>
+                    <li><a href="http://opencart.abstracta.us:80/index.php?route=information/information&amp;information_id=3">Privacy Policy</a></li>
+                    <li><a href="http://opencart.abstracta.us:80/index.php?route=information/information&amp;information_id=5">Terms &amp; Conditions</a></li>
+                  </ul>
+      </div>
+            <div class="col-sm-3">
+        <h5>Customer Service</h5>
+        <ul class="list-unstyled">
+          <li><a href="http://opencart.abstracta.us:80/index.php?route=information/contact">Contact Us</a></li>
+          <li><a href="https://opencart.abstracta.us:443/index.php?route=account/return/add">Returns</a></li>
+          <li><a href="http://opencart.abstracta.us:80/index.php?route=information/sitemap">Site Map</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h5>Extras</h5>
+        <ul class="list-unstyled">
+          <li><a href="http://opencart.abstracta.us:80/index.php?route=product/manufacturer">Brands</a></li>
+          <li><a href="https://opencart.abstracta.us:443/index.php?route=account/voucher">Gift Certificates</a></li>
+          <li><a href="https://opencart.abstracta.us:443/index.php?route=affiliate/login">Affiliate</a></li>
+          <li><a href="http://opencart.abstracta.us:80/index.php?route=product/special">Specials</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h5>My Account</h5>
+        <ul class="list-unstyled">
+          <li><a href="https://opencart.abstracta.us:443/index.php?route=account/account">My Account</a></li>
+          <li><a href="https://opencart.abstracta.us:443/index.php?route=account/order">Order History</a></li>
+          <li><a href="https://opencart.abstracta.us:443/index.php?route=account/wishlist">Wish List</a></li>
+          <li><a href="https://opencart.abstracta.us:443/index.php?route=account/newsletter">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p>Powered By <a href="http://www.opencart.com">OpenCart</a><br> Your Store © 2021</p>
+  </div>
+</footer>
+<!--
+OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
+Please donate via PayPal to donate@opencart.com
+//-->
+  <div id="bitnami-banner" data-banner-id="d32a9">  <style>#bitnami-banner{z-index:100000;height:80px;padding:0;width:120px;background:transparent;position:fixed;right:0;bottom:0;border:0 solid #ededed}#bitnami-banner .bitnami-corner-image-div{position:fixed;right:0;bottom:0;border:0;z-index:100001;height:110px}#bitnami-banner .bitnami-corner-image-div .bitnami-corner-image{position:fixed;right:0;bottom:0;border:0;z-index:100001;height:110px}#bitnami-close-banner-button{height:12px;width:12px;z-index:10000000000;position:fixed;right:5px;bottom:65px;display:none;cursor:pointer}</style>  <img id="bitnami-close-banner-button" src="data:image/webp;base64,UklGRigCAABXRUJQVlA4TBsCAAAvgsAgEI9gIG3b0NIruIG0bUNLr+AG0rYNLb2CE2Tb1J/pLFN5bPP/BwCowN2BCkA1hBCCJDeSHEkyX707+v/P7e4R6Rax6hLRf0gC3MZtAswpG+DsLV7AO5Ur/cKjh+sizweD5hW9fDRro8ipnD/zujDo8+s9vp46UmetLJIcjyoskhSi6ookFcuKJCWriiQtm4okPXuKJE1biiRdO4okdQuKJH33iyQGt4skDneLJBY3iyQe94p8P5s0OpJG0uhII2liI+FbGlk/yBTNovE1Y5Lm0PiaMU0zaHzNmCgR1cga7vjUDG05t53agiB3PfnjAsfuTvIMEiBwHYc9wAbABsAGwAbABsAGwAbABsAGwAbABoCfQ14AcHPQCwAbAFbOez7gpOH5gI+W5wMump4PeGh7PuBA4AXgR6pCoixwSgSefzX6atyecPvhELDAZ9MsjNsPk+Zg3H7YNAPj9sMoP8bth1VujNsPs7wYtx92STFuPwZIyX/v7cdEqRi//bhbYPtxt8D24+73sf1g/Pbjp4Zu/DYSi4ANgA2ADYANgA2ASchMB5nhRwOZP12iNnD5KupxbL6JehibX4t6EptfjXoQm9+Kegqb34yqAzo/4+ZtP94Xddr2471RZ20/3h910vbjA1EHbT8+FHXM9uODUYdsPz4cdcT240RU//ajEPUegSr/AvjydlCXz2f9gUXPrSN5h01PL+8OBAA=" data-pagespeed-url-hash="532604739" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">  <div class="bitnami-corner-image-div">     <a href="/bitnami/index.html" target="_blank">       <img class="bitnami-corner-image" alt="Bitnami" src="/bitnami/images/xcorner-logo.png.pagespeed.ic.IEIWilc-ea.webp" data-pagespeed-url-hash="2368760042" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">     </a>  </div>  <script type="text/javascript">//<![CDATA[
+(function(){var banner=document.getElementById("bitnami-banner");var closeButton=document.getElementById("bitnami-close-banner-button");var toggleCloseButton=function toggleCloseButton(open){if(closeButton){if(open&&banner&&banner.style.display!="none"){closeButton.style.display="block";}else{closeButton.style.display="none";}}return false;};var setCookie=function setCookie(cname,cvalue,exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*60*60*1000));var expires="expires="+d.toUTCString();document.cookie=cname+"="+cvalue+"; "+expires;};var closeBanner=function closeBanner(open){if(banner){var suffix=banner.getAttribute('data-banner-id')||'global';banner.style.display="none";setCookie('_bitnami_closed_banner_'+suffix,"1",30);}return false;};banner.onmouseover=function(){return toggleCloseButton(1);};banner.onmouseout=function(){return toggleCloseButton(0);};closeButton.onclick=closeBanner;}());
+//]]></script> </div>   </body></html>
