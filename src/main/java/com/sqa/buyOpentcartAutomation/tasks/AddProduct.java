@@ -16,7 +16,7 @@ public class AddProduct implements Task {
                 Click.on(THE_CART_PAGE)
         );
     }
-    public static AddProduct inAddProduct(){
+    public static AddProduct inTheCart(){
         return instrumented(AddProduct.class);
     }
 }

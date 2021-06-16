@@ -6,6 +6,7 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
 
+
 public class VerifyProduct implements Question<Boolean> {
     private final PurchaseData purchaseData;
 

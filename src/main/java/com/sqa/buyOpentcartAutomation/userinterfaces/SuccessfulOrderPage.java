@@ -4,5 +4,5 @@ import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.screenplay.targets.Target;
 
 public class SuccessfulOrderPage {
-    public static Target LINK_HISTORY =  Target.the("verify the order").located(By.xpath("//div[@id='content']//a[2]"));
+    public static Target ORDER_SUCCESSFUL =  Target.the("verify the order").located(By.xpath("//h1[contains(text(),'Your order has been placed!')]"));
 }

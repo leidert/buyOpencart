@@ -1,10 +1,11 @@
 package com.sqa.buyOpentcartAutomation.questions;
 
 import com.sqa.buyOpentcartAutomation.models.PurchaseData;
-import static com.sqa.buyOpentcartAutomation.userinterfaces.OrderInformationPage.*;
+import com.sqa.buyOpentcartAutomation.userinterfaces.SuccessfulOrderPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
+import org.junit.Assert;
 
 public class VerifyOrder implements Question<Boolean> {
 
@@ -17,10 +18,7 @@ public class VerifyOrder implements Question<Boolean> {
     @Override
     public Boolean answeredBy(Actor actor) {
 
-        String userName = purchaseData.getFirstNameUser()+" "+purchaseData.getLastNameUser();
-
-        if (Text.of(NAME_ORDER_CONFIRM).viewedBy(actor).asString().substring(0,12).equals(userName) &&
-                Text.of(NAME_PRODUCT_CONFIRM).viewedBy(actor).asString().equals(purchaseData.getBrand()))
+        if (Text.of(SuccessfulOrderPage.ORDER_SUCCESSFUL).viewedBy(actor).asString().equals(purchaseData.getOrderSuccessful()))
             return true;
         else
             return false;

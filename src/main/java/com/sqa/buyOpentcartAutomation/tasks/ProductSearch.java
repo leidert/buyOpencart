@@ -21,7 +21,7 @@ public class ProductSearch implements Task {
                 Click.on(BUTTON_SEARCH)
         );
     }
-    public static ProductSearch inTheSearch(String brand){
+    public static ProductSearch inTheApp(String brand){
         return instrumented(ProductSearch.class, brand);
     }
 }

@@ -1,6 +1,8 @@
 package com.sqa.buyOpentcartAutomation.stepdefinitions;
 
+import com.sqa.buyOpentcartAutomation.exeptions.ExceptionAnswer;
 import com.sqa.buyOpentcartAutomation.models.PurchaseData;
+import com.sqa.buyOpentcartAutomation.questions.CheckExistingProduct;
 import com.sqa.buyOpentcartAutomation.questions.VerifyOrder;
 import com.sqa.buyOpentcartAutomation.questions.VerifyProduct;
 import com.sqa.buyOpentcartAutomation.tasks.*;
@@ -33,8 +35,9 @@ public class BuyOpenCartEstepDefinition {
 
     @Given("^that enter of the opencart page it made the search for a computer (.*)$")
     public void thatEnterOfTheOpencartPageItMadeTheSearchForAComputerDell(String brand) {
-        leider.attemptsTo(ProductSearch.inTheSearch(brand));
+        leider.attemptsTo(ProductSearch.inTheApp(brand));
     }
+
     @Given("^enter the product$")
     public void enterTheProduct() {
     leider.attemptsTo(ReviewProduct.inTheSearchResult());
@@ -42,12 +45,16 @@ public class BuyOpenCartEstepDefinition {
 
     @When("^added it to cart$")
     public void addedItToCart() {
-        leider.attemptsTo(AddProduct.inAddProduct());
+        leider.attemptsTo(AddProduct.inTheCart());
     }
 
     @When("^verifying that it is the chosen computer$")
     public void verifyingThatItIsTheChosenComputer(List<PurchaseData> purchaseData) {
         leider.should(seeThat(VerifyProduct.inTheCartPage(purchaseData.get(0))));
+    }
+
+    @When("^that heading to checkout$")
+    public void thatHeadingToCheckout() {
         leider.attemptsTo(GoToCheckOut.inTheCartPage());
     }
 
@@ -55,14 +62,17 @@ public class BuyOpenCartEstepDefinition {
     public void proceedWithThePayment(List<PurchaseData> purchaseData){
         leider.attemptsTo(CompleteCheckout.inTheCheckOut(purchaseData.get(0)));
     }
-    @Then("^enter the purchase history$")
-    public void enterThePurchaseHistory() {
-        leider.attemptsTo(ValidatePurchaseOrder.inValidateOrder());
-    }
 
     @Then("^verifying that the purchase order is confirmed$")
     public void verifyingThatThePurchaseOrderIsConfirmed(List<PurchaseData> purchaseData) {
-        leider.should(seeThat(VerifyOrder.inTheOrder(purchaseData.get(0))));
+        leider.should(seeThat(VerifyOrder.inTheOrder(purchaseData.get(0)))
+                .orComplainWith(ExceptionAnswer.class, ExceptionAnswer.ORDER_ERROR));
+    }
+
+    @Then("^verify that the product does not exist (.*)$")
+    public void verifyThatTheProductDoesNotExist(String message) {
+        leider.should(seeThat(CheckExistingProduct.inTheResultSearch(message))
+                .orComplainWith(ExceptionAnswer.class, ExceptionAnswer.SEARCH_ERROR));
     }
 
 }
