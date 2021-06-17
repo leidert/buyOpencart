@@ -18,10 +18,8 @@ public class VerifyOrder implements Question<Boolean> {
     @Override
     public Boolean answeredBy(Actor actor) {
 
-        if (Text.of(SuccessfulOrderPage.ORDER_SUCCESSFUL).viewedBy(actor).asString().equals(purchaseData.getOrderSuccessful()))
-            return true;
-        else
-            return false;
+        return Text.of(SuccessfulOrderPage.ORDER_SUCCESSFUL).viewedBy(actor).asString()
+                .equals(purchaseData.getOrderSuccessful());
     }
 
     public static VerifyOrder inTheOrder(PurchaseData purchaseData){

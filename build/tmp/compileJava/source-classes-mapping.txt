@@ -14,8 +14,8 @@ com/sqa/buyOpentcartAutomation/userinterfaces/SearchResultPage.java
  com.sqa.buyOpentcartAutomation.userinterfaces.SearchResultPage
 com/sqa/buyOpentcartAutomation/userinterfaces/PurchaseHistoryPage.java
  com.sqa.buyOpentcartAutomation.userinterfaces.PurchaseHistoryPage
-com/sqa/buyOpentcartAutomation/questions/VerifyOrder.java
- com.sqa.buyOpentcartAutomation.questions.VerifyOrder
+com/sqa/buyOpentcartAutomation/questions/VerifyProduct.java
+ com.sqa.buyOpentcartAutomation.questions.VerifyProduct
 com/sqa/buyOpentcartAutomation/tasks/GoToCheckOut.java
  com.sqa.buyOpentcartAutomation.tasks.GoToCheckOut
 com/sqa/buyOpentcartAutomation/tasks/CompleteCheckout.java
@@ -24,13 +24,11 @@ com/sqa/buyOpentcartAutomation/tasks/ReviewProduct.java
  com.sqa.buyOpentcartAutomation.tasks.ReviewProduct
 com/sqa/buyOpentcartAutomation/userinterfaces/CheckOutPage.java
  com.sqa.buyOpentcartAutomation.userinterfaces.CheckOutPage
-com/sqa/buyOpentcartAutomation/questions/VerifyProduct.java
- com.sqa.buyOpentcartAutomation.questions.VerifyProduct
-com/sqa/buyOpentcartAutomation/questions/CheckExistingProduct.java
- com.sqa.buyOpentcartAutomation.questions.CheckExistingProduct
 com/sqa/buyOpentcartAutomation/userinterfaces/ProductPage.java
  com.sqa.buyOpentcartAutomation.userinterfaces.ProductPage
-com/sqa/buyOpentcartAutomation/userinterfaces/OrderInformationPage.java
- com.sqa.buyOpentcartAutomation.userinterfaces.OrderInformationPage
 com/sqa/buyOpentcartAutomation/userinterfaces/SuccessfulOrderPage.java
  com.sqa.buyOpentcartAutomation.userinterfaces.SuccessfulOrderPage
+com/sqa/buyOpentcartAutomation/questions/VerifyOrder.java
+ com.sqa.buyOpentcartAutomation.questions.VerifyOrder
+com/sqa/buyOpentcartAutomation/questions/CheckExistingProduct.java
+ com.sqa.buyOpentcartAutomation.questions.CheckExistingProduct

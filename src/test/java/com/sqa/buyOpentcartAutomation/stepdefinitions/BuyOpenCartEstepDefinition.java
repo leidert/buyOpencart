@@ -2,12 +2,12 @@ package com.sqa.buyOpentcartAutomation.stepdefinitions;
 
 import com.sqa.buyOpentcartAutomation.exeptions.ExceptionAnswer;
 import com.sqa.buyOpentcartAutomation.models.PurchaseData;
-import com.sqa.buyOpentcartAutomation.questions.CheckExistingProduct;
 import com.sqa.buyOpentcartAutomation.questions.VerifyOrder;
 import com.sqa.buyOpentcartAutomation.questions.VerifyProduct;
 import com.sqa.buyOpentcartAutomation.tasks.*;
 import com.sqa.buyOpentcartAutomation.userinterfaces.HomeOpencartPage;
 import cucumber.api.java.Before;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -38,7 +38,7 @@ public class BuyOpenCartEstepDefinition {
         leider.attemptsTo(ProductSearch.inTheApp(brand));
     }
 
-    @Given("^enter the product$")
+    @And("^enter the product$")
     public void enterTheProduct() {
     leider.attemptsTo(ReviewProduct.inTheSearchResult());
     }
@@ -48,17 +48,17 @@ public class BuyOpenCartEstepDefinition {
         leider.attemptsTo(AddProduct.inTheCart());
     }
 
-    @When("^verifying that it is the chosen computer$")
+    @And("^verifying that it is the chosen computer$")
     public void verifyingThatItIsTheChosenComputer(List<PurchaseData> purchaseData) {
         leider.should(seeThat(VerifyProduct.inTheCartPage(purchaseData.get(0))));
     }
 
-    @When("^that heading to checkout$")
+    @And("^that heading to checkout$")
     public void thatHeadingToCheckout() {
         leider.attemptsTo(GoToCheckOut.inTheCartPage());
     }
 
-    @When("^proceed with the payment$")
+    @And("^proceed with the payment$")
     public void proceedWithThePayment(List<PurchaseData> purchaseData){
         leider.attemptsTo(CompleteCheckout.inTheCheckOut(purchaseData.get(0)));
     }
@@ -68,11 +68,4 @@ public class BuyOpenCartEstepDefinition {
         leider.should(seeThat(VerifyOrder.inTheOrder(purchaseData.get(0)))
                 .orComplainWith(ExceptionAnswer.class, ExceptionAnswer.ORDER_ERROR));
     }
-
-    @Then("^verify that the product does not exist (.*)$")
-    public void verifyThatTheProductDoesNotExist(String message) {
-        leider.should(seeThat(CheckExistingProduct.inTheResultSearch(message))
-                .orComplainWith(ExceptionAnswer.class, ExceptionAnswer.SEARCH_ERROR));
-    }
-
 }

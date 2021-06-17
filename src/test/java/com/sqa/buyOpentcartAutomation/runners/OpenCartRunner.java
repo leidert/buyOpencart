@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/feature",
         tags = "@General",
-        glue = "com.sqa.buyOpentcartAutomation.stepdefinitions",
+        glue = {"com.sqa.buyOpentcartAutomation.stepdefinitions"},
         snippets = SnippetType.CAMELCASE
 )
 public class OpenCartRunner {

@@ -16,10 +16,9 @@ public class VerifyProduct implements Question<Boolean> {
 
     @Override
     public Boolean answeredBy(Actor actor) {
-        if (Text.of(PRODUCT_NAME).viewedBy(actor).asString().equals(purchaseData.getBrand()))
-            return true;
-        else
-            return false;
+        return  Text.of(PRODUCT_NAME).viewedBy(actor).asString().equals(purchaseData.getBrand());
+
+
     }
     public static VerifyProduct inTheCartPage(PurchaseData purchaseData){
         return new VerifyProduct(purchaseData);
