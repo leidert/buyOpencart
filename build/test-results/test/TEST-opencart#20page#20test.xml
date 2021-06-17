@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="opencart page test" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-06-17T01:44:19" hostname="DESKTOP-RHG4IA4" time="35.992">
+<testsuite name="opencart page test" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-06-17T02:03:22" hostname="DESKTOP-RHG4IA4" time="44.895">
   <properties/>
-  <testcase name="buy on opencart" classname="opencart page test" time="26.846"/>
-  <testcase name="buy on opencart" classname="opencart page test" time="9.118"/>
+  <testcase name="buy on opencart" classname="opencart page test" time="30.597"/>
+  <testcase name="buy on opencart" classname="opencart page test" time="14.291"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[jun. 16, 2021 8:44:20 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+  <system-err><![CDATA[jun. 16, 2021 9:03:23 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, goog:chromeOptions: {args: [--start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 1742
+Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 17261
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-jun. 16, 2021 8:44:23 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+jun. 16, 2021 9:03:26 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
@@ -24,15 +24,15 @@ INFO: Detected dialect: W3C
 
 TEST PASSED: buy on opencart
 ----------------------------------------------------------------------------
-jun. 16, 2021 8:44:46 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+jun. 16, 2021 9:03:53 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, goog:chromeOptions: {args: [--start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 1784
+Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 43530
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-jun. 16, 2021 8:44:48 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+jun. 16, 2021 9:03:56 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  

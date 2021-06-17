@@ -1,6 +1,6 @@
-com/sqa/buyOpentcartAutomation/stepdefinitions/BuyOpenCartEstepDefinition.java
- com.sqa.buyOpentcartAutomation.stepdefinitions.BuyOpenCartEstepDefinition
-com/sqa/buyOpentcartAutomation/stepdefinitions/SearchOpencartStepDefinition.java
- com.sqa.buyOpentcartAutomation.stepdefinitions.SearchOpencartStepDefinition
 com/sqa/buyOpentcartAutomation/runners/OpenCartRunner.java
  com.sqa.buyOpentcartAutomation.runners.OpenCartRunner
+com/sqa/buyOpentcartAutomation/stepdefinitions/SearchOpenCartStepDefinition.java
+ com.sqa.buyOpentcartAutomation.stepdefinitions.SearchOpenCartStepDefinition
+com/sqa/buyOpentcartAutomation/stepdefinitions/BuyOpenCartEstepDefinition.java
+ com.sqa.buyOpentcartAutomation.stepdefinitions.BuyOpenCartEstepDefinition

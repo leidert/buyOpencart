@@ -28,7 +28,7 @@ com/sqa/buyOpentcartAutomation/userinterfaces/ProductPage.java
  com.sqa.buyOpentcartAutomation.userinterfaces.ProductPage
 com/sqa/buyOpentcartAutomation/userinterfaces/SuccessfulOrderPage.java
  com.sqa.buyOpentcartAutomation.userinterfaces.SuccessfulOrderPage
-com/sqa/buyOpentcartAutomation/questions/VerifyOrder.java
- com.sqa.buyOpentcartAutomation.questions.VerifyOrder
 com/sqa/buyOpentcartAutomation/questions/CheckExistingProduct.java
  com.sqa.buyOpentcartAutomation.questions.CheckExistingProduct
+com/sqa/buyOpentcartAutomation/questions/VerifyOrder.java
+ com.sqa.buyOpentcartAutomation.questions.VerifyOrder
